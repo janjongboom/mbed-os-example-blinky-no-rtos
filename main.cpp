@@ -6,6 +6,7 @@ DigitalOut led1(LED1);
 int main() {
     while (true) {
         led1 = !led1;
+
         // Sleeping on the main (only) thread
         wait_ms(500);
     }

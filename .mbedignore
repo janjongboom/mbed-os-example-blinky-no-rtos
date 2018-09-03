@@ -1,10 +1,8 @@
 mbed-os/rtos/*
-mbed-os/features/cellular/
-mbed-os/features/FEATURE_CLIENT/*
-mbed-os/features/FEATURE_COMMON_PAL/*
-mbed-os/features/FEATURE_UVISOR/*
-mbed-os/features/frameworks/*
-mbed-os/features/net/*
 mbed-os/features/netsocket/*
-mbed-os/features/nvstore/*
-mbed-os/features/storage/*
+mbed-os/features/cellular/*
+mbed-os/features/frameworks/greentea-client/*
+mbed-os/features/frameworks/utest/*
+mbed-os/features/frameworks/unity/*
+mbed-os/features/nanostack/*
+mbed-os/features/FEATURE_LWIP/*
