@@ -1,6 +1,6 @@
 # Blinky for Mbed OS 5 - without using Mbed RTOS
 
-This application demonstrates how to remove Mbed RTOS from an Mbed OS 5 program to save RAM and flash. Note that you'll lose IP networking capabilities, and the opportunity to run tests through Greentea. This also has effects on tickless mode and the sleep manager might not function anymore.
+This application demonstrates how to remove Mbed RTOS from an Mbed OS 5 program to save RAM and flash. Note that you'll lose IP networking capabilities, and the opportunity to run tests through Greentea. This also has effects on tickless mode and the sleep manager might not function anymore. In the future Mbed OS is introducing a bare-metal mode, which no longer requires this work.
 
 Note that patching the networking libraries is possible, see [mbed-os#7956](https://github.com/ARMmbed/mbed-os/issues/7956) for some pointers.
 
