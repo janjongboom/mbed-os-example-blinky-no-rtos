@@ -6,3 +6,4 @@ mbed-os/features/frameworks/utest/*
 mbed-os/features/frameworks/unity/*
 mbed-os/features/nanostack/*
 mbed-os/features/lwipstack/*
+mbed-os/components/wifi/esp8266-driver/*

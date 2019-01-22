@@ -19,7 +19,7 @@ Compiled with GCC 6 on a FRDM-K64F with [newlib-nano](https://os.mbed.com/blog/e
 
 ```
 Total Static RAM memory (data + bss): 2568 bytes
-Total Flash memory (text + data): 6320 bytes
+Total Flash memory (text + data): 6624 bytes
 ```
 
 To compile with newlib-nano in release mode, build with the `tiny` profile:
