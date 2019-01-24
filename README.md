@@ -10,8 +10,9 @@ In `.mbedignore` folders that depend on the RTOS are excluded. This also means t
 
 **Additional optimizations**
 
-* Disable flush of standard I/O's at exit (see `mbed_app.json`).
+* Disable flush of standard I/O's at exit (see [mbed_app.json](mbed_app.json)).
 * Build with newlib-nano.
+* Disable error reporting (due to [#9464](https://github.com/ARMmbed/mbed-os/issues/9464), see [mbed_app.json](mbed_app.json)).
 
 ## Application size
 
@@ -19,7 +20,7 @@ Compiled with GCC 6 on a FRDM-K64F with [newlib-nano](https://os.mbed.com/blog/e
 
 ```
 Total Static RAM memory (data + bss): 2568 bytes
-Total Flash memory (text + data): 6624 bytes
+Total Flash memory (text + data): 6656 bytes
 ```
 
 To compile with newlib-nano in release mode, build with the `tiny` profile:
